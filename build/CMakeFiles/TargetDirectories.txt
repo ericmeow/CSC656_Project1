@@ -1,0 +1,6 @@
+/home/gator/CSC656_Project1/build/CMakeFiles/benchmark.dir
+/home/gator/CSC656_Project1/build/CMakeFiles/sum_direct.dir
+/home/gator/CSC656_Project1/build/CMakeFiles/sum_vector.dir
+/home/gator/CSC656_Project1/build/CMakeFiles/sum_indirect.dir
+/home/gator/CSC656_Project1/build/CMakeFiles/edit_cache.dir
+/home/gator/CSC656_Project1/build/CMakeFiles/rebuild_cache.dir

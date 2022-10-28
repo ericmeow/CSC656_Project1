@@ -6,19 +6,29 @@
 #include <vector>
 #include <string.h>
 
-
-
-void 
-setup(int64_t N, uint64_t A[])
+void setup(int64_t N, uint64_t A[])
 {
-   printf(" inside sum_indirect problem_setup, N=%lld \n", N);
+   printf(" inside sum_indirect problem_setup, N=%ld \n", N);
+
+   for (int i = 0; i < N; i++)
+   {
+
+      A[i] = rand() % N - 1;
+   }
 }
 
 int64_t
 sum(int64_t N, uint64_t A[])
 {
-   printf(" inside sum_indirect perform_sum, N=%lld \n", N);
+   printf(" inside sum_indirect perform_sum, N=%ld \n", N);
+   int64_t sum = 0;
 
-   return 0;
+   for (int i = 0; i < N; i++)
+   {
+
+      sum += A[i];
+   }
+
+   return sum;
 }
 
